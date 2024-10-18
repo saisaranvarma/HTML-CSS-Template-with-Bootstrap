@@ -1,0 +1,174 @@
+body {
+    overflow-x: hidden;
+    /* Prevents horizontal scrolling */
+}
+
+#div1 {
+    background-color: #3CB65A;
+    position: absolute;
+    z-index: -1;
+    width: 1550px;
+
+    height: 300px;
+
+}
+
+#headline1 {
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    
+}
+
+#para1 {
+    color: antiquewhite;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: -10px;
+    
+
+}
+
+#div2 {
+    background-color: rgba(128, 128, 128, 0.2);
+    position: absolute;
+    width: 1550px;
+
+    height: 560px;
+    margin-top: 300.3px;
+
+
+}
+
+#para2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+
+}
+
+#span1 {
+    color: grey;
+}
+
+#para3 {
+    color: grey;
+    text-align: center;
+    margin-top: -30px;
+}
+
+#card1 {
+    position: absolute;
+    background-color: grey;
+    margin-top: 450px;
+    height: 300px;
+    float: left;
+    margin-left: 130px;
+}
+
+#card2 {
+    position: absolute;
+    background-color: grey;
+    margin-top: 450px;
+    height: 300px;
+    float: left;
+    margin-left: 630px;
+}
+
+#card3 {
+    position: absolute;
+    background-color: grey;
+    margin-top: 450px;
+    height: 300px;
+    float: left;
+    margin-left: 1100px;
+
+
+}
+
+#para4 {
+    position: absolute;
+    color: #0F3949;
+    font-size: 20px;
+    margin-top: 760px;
+    margin-left: 180px;
+
+
+
+}
+
+#para5 {
+    position: absolute;
+    color: #0F3949;
+    font-size: 20px;
+    margin-top: 760px;
+    margin-left: 1150px;
+
+
+
+}
+
+#para6 {
+    position: absolute;
+    color: #0F3949;
+    font-size: 20px;
+    margin-top: 760px;
+    margin-left: 650px;
+
+
+
+}
+
+#para7 {
+    position: absolute;
+    margin-top: 790px;
+    margin-left: 120px;
+
+}
+
+#para8 {
+    position: absolute;
+    margin-top: 790px;
+    margin-left: 630px;
+
+}
+
+#para9 {
+    position: absolute;
+    margin-top: 790px;
+    margin-left: 1100px;
+
+}
+#searchbutton:hover {
+    background-color: green !important;
+}
+#searchbutton:active {
+    background-color: rgb(42, 202, 202) !important;
+}
+
+#engagebutton:hover{
+    background-color: #0c5f80 !important;
+}
+#engagebutton:active {
+    background-color: #2b9ac5 !important;
+}
+.card {
+    transition: transform 0.3s ease;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    
+}
+#span1:hover{
+    color: #3CB65A;
+    
+    
+}
